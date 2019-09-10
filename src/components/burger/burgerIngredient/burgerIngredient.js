@@ -1,4 +1,5 @@
 import React from "react";
+import PropType from "prop-types";
 import classes from "./burgerIngredient.module.css";
 
 const burgerIngredient = props => {
@@ -6,7 +7,7 @@ const burgerIngredient = props => {
 
   switch (props.type) {
     case "bread-bottom":
-      ingredient = <div className={classes.BreadBotttom}></div>;
+      ingredient = <div className={classes.BreadBottom}></div>;
       break;
     case "bread-top":
       ingredient = (
@@ -32,6 +33,11 @@ const burgerIngredient = props => {
       ingredient = null;
   }
   return ingredient;
+};
+
+//proptype validation type should be required and it must be string
+burgerIngredient.prototype = {
+  type: PropType.string.isRequired
 };
 
 export default burgerIngredient;
