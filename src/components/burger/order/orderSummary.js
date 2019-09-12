@@ -5,7 +5,7 @@ const orderSummary = props => {
   const price = props.price;
   const ingredientsList = Object.keys(props.ingredients).map(name => {
     return (
-      <li>
+      <li key={name}>
         {name}:- {props.ingredients[name]}
       </li>
     );
