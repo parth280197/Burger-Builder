@@ -24,6 +24,7 @@ class BurgerBuilder extends Component {
     purchasing: false
   };
 
+  //open and close the modal by using purchasing state
   purchaseHandler = () => {
     this.setState({purchasing: !this.state.purchasing});
   };
@@ -87,6 +88,7 @@ class BurgerBuilder extends Component {
           <OrderSummary
             ingredients={this.state.ingredients}
             price={this.state.totalPrice}
+            purchaseHandler={this.purchaseHandler}
           />
         </Modal>
         <Burger ingredients={this.state.ingredients} />
