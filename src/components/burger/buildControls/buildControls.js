@@ -10,7 +10,7 @@ const controls = [
 const buildControls = props => {
   return (
     <div className={classes.BuildControls}>
-      <p>
+      <p style={{margin: "2px 0px"}}>
         Current burger price:
         <strong>{props.price.toFixed(2)} $</strong>
       </p>
