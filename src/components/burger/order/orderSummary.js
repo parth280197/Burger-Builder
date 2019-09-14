@@ -20,7 +20,9 @@ const orderSummary = props => {
       <Button btnType={"Danger"} onClick={props.purchaseHandler}>
         Cancel
       </Button>
-      <Button btnType={"Success"}>Continue</Button>
+      <Button btnType={"Success"} onClick={props.purchaseContinueHandler}>
+        Continue
+      </Button>
     </div>
   );
 };
