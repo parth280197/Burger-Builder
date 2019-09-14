@@ -75,7 +75,7 @@ class BurgerBuilder extends Component {
       less: {...this.state.ingredients},
       more: {...this.state.ingredients}
     };
-    for (let key in disableInfo.more) {
+    for (const key in disableInfo.more) {
       disableInfo.less[key] = this.state.ingredients[key] <= 0;
       disableInfo.more[key] = this.state.ingredients[key] >= 3;
     }
