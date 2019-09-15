@@ -43,10 +43,12 @@ class BurgerBuilder extends Component {
     axios
       .post("/orders.json", order)
       .then(response => {
-        console.log("response then invoked" + response);
+        alert("Your order is on the way");
+        this.setState({purchasing: false});
       })
       .catch(error => {
-        console.log("error occured" + error);
+        alert("Sorry, Something went wrong please re enter your oder");
+        this.setState({purchasing: false});
       });
   };
 
