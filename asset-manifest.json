@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/parth280197/Burger-Builder/static/css/main.77762688.chunk.css",
-    "main.js": "/parth280197/Burger-Builder/static/js/main.e54700b5.chunk.js",
-    "main.js.map": "/parth280197/Burger-Builder/static/js/main.e54700b5.chunk.js.map",
-    "runtime~main.js": "/parth280197/Burger-Builder/static/js/runtime~main.405b1211.js",
-    "runtime~main.js.map": "/parth280197/Burger-Builder/static/js/runtime~main.405b1211.js.map",
-    "static/js/2.32cf9fb1.chunk.js": "/parth280197/Burger-Builder/static/js/2.32cf9fb1.chunk.js",
-    "static/js/2.32cf9fb1.chunk.js.map": "/parth280197/Burger-Builder/static/js/2.32cf9fb1.chunk.js.map",
-    "index.html": "/parth280197/Burger-Builder/index.html",
-    "precache-manifest.99b4434417d482438cad6aeb41057688.js": "/parth280197/Burger-Builder/precache-manifest.99b4434417d482438cad6aeb41057688.js",
-    "service-worker.js": "/parth280197/Burger-Builder/service-worker.js",
-    "static/css/main.77762688.chunk.css.map": "/parth280197/Burger-Builder/static/css/main.77762688.chunk.css.map",
-    "static/media/burger-logo.png": "/parth280197/Burger-Builder/static/media/burger-logo.b8503d26.png"
+    "main.css": "/box-app/static/css/main.77762688.chunk.css",
+    "main.js": "/box-app/static/js/main.e0596e80.chunk.js",
+    "main.js.map": "/box-app/static/js/main.e0596e80.chunk.js.map",
+    "runtime~main.js": "/box-app/static/js/runtime~main.b88330e3.js",
+    "runtime~main.js.map": "/box-app/static/js/runtime~main.b88330e3.js.map",
+    "static/js/2.32cf9fb1.chunk.js": "/box-app/static/js/2.32cf9fb1.chunk.js",
+    "static/js/2.32cf9fb1.chunk.js.map": "/box-app/static/js/2.32cf9fb1.chunk.js.map",
+    "index.html": "/box-app/index.html",
+    "precache-manifest.1dd69bff95d80ac3f57bc000dadfaf7a.js": "/box-app/precache-manifest.1dd69bff95d80ac3f57bc000dadfaf7a.js",
+    "service-worker.js": "/box-app/service-worker.js",
+    "static/css/main.77762688.chunk.css.map": "/box-app/static/css/main.77762688.chunk.css.map",
+    "static/media/burger-logo.png": "/box-app/static/media/burger-logo.b8503d26.png"
   }
 }
