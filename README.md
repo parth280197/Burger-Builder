@@ -1,4 +1,4 @@
-# Bug-Tracker
+# Burger-Builder
 ## Technologies used
 1. React.js
 2. Firebase database.
