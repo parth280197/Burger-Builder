@@ -21,6 +21,24 @@ class BurgerBuilder extends Component {
     purchasing: false
   };
 
+  //Reset state back to normal
+  resetState = () => {
+    this.setState({
+      ingredients: null,
+      totalPrice: 4,
+      isPurchaseAble: false,
+      purchasing: false
+    });
+    axios
+      .get("/ingredients.json")
+      .then(res => {
+        this.setState({ingredients: res.data});
+      })
+      .catch(res => {
+        alert("Something went wrong");
+      });
+  };
+
   //open and close the modal by using purchasing state
   purchaseHandler = () => {
     this.setState({purchasing: !this.state.purchasing});
@@ -44,7 +62,7 @@ class BurgerBuilder extends Component {
       .post("/orders.json", order)
       .then(response => {
         alert("Your order is on the way");
-        this.setState({purchasing: false});
+        this.resetState();
       })
       .catch(error => {
         alert("Sorry, Something went wrong please re enter your oder");
