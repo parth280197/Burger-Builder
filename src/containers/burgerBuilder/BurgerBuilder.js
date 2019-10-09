@@ -46,28 +46,28 @@ class BurgerBuilder extends Component {
 
   //create order when user click on contniue in Order Summary model
   purchaseContinueHandler = () => {
-    console.log("Purchase conntinue invoked");
-    const order = {
-      ingredients: this.state.ingredients,
-      price: this.state.totalPrice,
-      customer: {
-        name: "Parth Patel",
-        address: {
-          street: "pembina hwy",
-          zipCode: "R3T4J5"
-        }
-      }
-    };
-    axios
-      .post("/orders.json", order)
-      .then(response => {
-        alert("Your order is on the way");
-        this.resetState();
-      })
-      .catch(error => {
-        alert("Sorry, Something went wrong please re enter your oder");
-        this.setState({purchasing: false});
-      });
+    // const order = {
+    //   ingredients: this.state.ingredients,
+    //   price: this.state.totalPrice,
+    //   customer: {
+    //     name: "Parth Patel",
+    //     address: {
+    //       street: "pembina hwy",
+    //       zipCode: "R3T4J5"
+    //     }
+    //   }
+    // };
+    // axios
+    //   .post("/orders.json", order)
+    //   .then(response => {
+    //     alert("Your order is on the way");
+    //     this.resetState();
+    //   })
+    //   .catch(error => {
+    //     alert("Sorry, Something went wrong please re enter your oder");
+    //     this.setState({purchasing: false});
+    //   });
+    this.props.history.push("/Checkout");
   };
 
   updateOrderButton = ingredients => {
