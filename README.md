@@ -1,3 +1,25 @@
+# Burger-Builder
+## Technologies used
+1. React.js
+2. Firebase database.
+3. CSS
+## Description
+1.Created single page application where user can build burger dynamically and place orders.
+2.Orders stored in real-time NoSQL firebase database.
+3.Crated many reusable components like model and backdrop.
+## Screen Shots
+1. Empty burger
+
+  ![Full screen](./emptyburger.png)
+
+2. Dynamically created burger
+
+  ![Full screen](./Dynamicallybuildburger.png)
+  
+3. order
+
+  ![Full screen](./order.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
